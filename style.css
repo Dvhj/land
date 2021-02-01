@@ -245,3 +245,52 @@ body{
 	margin-top: 4.3%;
 }
 .box_button {}
+
+@media screen and (max-width: 1615px) {
+	.box__text_title {
+  		font-size: 2.5em;
+	}
+
+	.header_box__video {
+		margin-left: 1%;
+		max-width:40%;
+		}
+	.video{
+		max-width:100%;}
+	.header__box {
+		margin:60px 12.5% 187px ;
+}
+
+@media screen and (max-width: 900px) {
+	.box__text_title {
+  		font-size: 1em;
+	}
+	.box__text{
+  		font-size: 12px;
+	}
+	.header_box__video {
+		margin-left: 1%;
+	}
+	.header__box_video{
+		max-width:40%;
+		}
+	.header__up {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap	;
+		margin-top:2%;}
+	.header__up_nav ul{
+		gap: 10px;}
+	.header__box {
+		margin:20px 12.5% 57px ;}
+
+	.header__up_logo {
+		margin-right:2%;}
+	.header__up_sign { 
+		margin-left:2%;}
+	.box__text_buttons button {
+		font-size: 10px;
+		height: 20px;
+		padding:0 10px;}
+}
+
